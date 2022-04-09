@@ -14,6 +14,24 @@ function Register() {
                 <input type="text" placeholder="Enter Name" />
                 <input type="email" placeholder="Enter Email" />
                 <input type="telnet" placeholder="Enter Mobile Number" />
+                <label>Select Course</label>
+                <div className="courseselect">
+                    <ul>
+                        <li><input type="radio" name="course" />B.Tech</li>
+                        <li><input type="radio" name="course"/>B.Pharma</li>
+                        <li><input type="radio" name="course"/>MCA</li>
+                        <li><input type="radio" name="course"/>MBA</li>
+                    </ul>
+                </div>
+                <label>Select Batch</label>
+                <div className="yearselect">
+                    <ul>
+                        <li><input type="radio" name="year"/>2018</li>
+                        <li><input type="radio" name="year"/>2019</li>
+                        <li><input type="radio" name="year"/>2020</li>
+                        <li><input type="radio" name="year"/>2021</li>
+                    </ul>
+                </div>
                 <label>Select Event:-</label>
                 <div className="eventselect">
                     <ul>
