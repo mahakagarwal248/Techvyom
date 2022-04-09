@@ -1,10 +1,12 @@
 import React from 'react';
 import './Navbar.css';
+import {Link} from 'react-router-dom'
 
 function Navbar() {
     return (
         <div className="navbar">
-            <div>
+            <Link to="/" style={{textDecoration:'none'}}>
+            <div className="navdiv">
                 <span>T</span>
                 <span>E</span>
                 <span>C</span>
@@ -14,6 +16,7 @@ function Navbar() {
                 <span>O</span>
                 <span>M</span>
             </div>
+            </Link>
         </div>
     )
 }
