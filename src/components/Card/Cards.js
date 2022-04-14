@@ -25,6 +25,7 @@ function Cards() {
                 </Card.Body>
             </Card>
             </Link>
+            <Link to="me-events" style={{textDecoration:'none'}}>
             <Card className="branchcard">
                 <Card.Img variant="top" src="https://blog.flatworldsolutions.com/files/2019/11/top-mechanical-engineering-trends-to-watch-out-for-in-2020.jpg" style={{height:'250px'}}/>
                 <Card.Body style={{color:'white', background: 'linear-gradient(to bottom left, #000066 0%, #9900cc 100%)'}}>
@@ -32,6 +33,7 @@ function Cards() {
                     <Card.Text>By Aerounautics Club</Card.Text>
                 </Card.Body>
             </Card>
+            </Link>
         </div>
     )
 }

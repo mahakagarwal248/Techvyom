@@ -6,7 +6,7 @@ import {Link} from 'react-router-dom'
 function Card2() {
     return (
         <div className="bcard">
-            <Link to="cs-it-events" style={{textDecoration:'none'}}>
+            <Link to="en-events" style={{textDecoration:'none'}}>
                 {""}
             <Card className="branchcard">
                 <Card.Img variant="top" src="https://tdan.com/wp-content/uploads/2022/04/ART01x-feature-image-edited.jpg" style={{height:'250px'}}/>
