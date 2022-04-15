@@ -2,7 +2,6 @@ import React from 'react';
 import Navbar from '../../navbar/Navbar';
 import CsEventCard from './CsEventCard';
 import CsEventCard2 from './CsEventCard2';
-import CsEventCard3 from './CsEventCard3';
 import './CsEvents.css';
 
 function CsEvents() {
@@ -14,9 +13,6 @@ function CsEvents() {
             </div>
             <div style={{height:'80vh'}}>
             <CsEventCard2/>
-            </div>
-            <div style={{height:'80vh'}}>
-            <CsEventCard3/>
             </div>
         </div>
     )

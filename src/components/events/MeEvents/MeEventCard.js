@@ -7,7 +7,7 @@ function MeEventCard() {
     return (
         <div className="mecard">
             <Card className="meeventcard">
-                <Card.Img variant="top" src="https://resizing.flixster.com/faYhoUQdzNP1kissQ99v8lYDPy4=/300x300/v2/https://flxt.tmsimg.com/assets/p41895_v_h8_ab.jpg" style={{height:'250px'}}/>
+                <Card.Img variant="top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4ZbMiRtzlBuW9X6ur_w0sLR8AJYfSFpzaNQ&usqp=CAU" style={{height:'250px'}}/>
                 <Card.Body style={{ color:'white', background: 'linear-gradient(to bottom left, #000066 0%, #9900cc 100%)'}}>
                     <Card.Title>Glider Plane Design</Card.Title>
                     <Card.Text>Design & build a Glider Plain made of BalsaWood, which will be launched by using a hand</Card.Text>
@@ -20,10 +20,10 @@ function MeEventCard() {
                 </Card.Body>
             </Card>
             <Card className="meeventcard">
-                <Card.Img variant="top" src="https://i.all3dp.com/wp-content/uploads/2015/10/27130922/11950515_1700903740139223_1658642607_n-300x300.jpg" style={{height:'250px'}}/>
+                <Card.Img variant="top" src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_300,h_300/https://technoreview85.com/wp-content/uploads/2022/02/Heart-beat-senor-min-300x300.jpg" style={{height:'250px'}}/>
                 <Card.Body style={{ color:'white', background: 'linear-gradient(to bottom left, #000066 0%, #9900cc 100%)'}}>
                     <Card.Title>Chain Reaction</Card.Title>
-                    <Card.Text></Card.Text>
+                    <Card.Text>Chain Reaction is a sequence of reactions where a reactive product causes additional reactions to take place.</Card.Text>
                     <div class="registerdiv">
                     <Link to="register">
                     <button class="regbtn">
@@ -33,10 +33,10 @@ function MeEventCard() {
                 </Card.Body>
             </Card>
             <Card className="meeventcard">
-                <Card.Img variant="top" src="https://hackster.imgix.net/uploads/attachments/1049591/_yYzNRv1GW8.blob?auto=compress%2Cformat&w=400&h=300&fit=min" style={{height:'250px'}}/>
+                <Card.Img variant="top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdSbCPf6VfpH5PxnImx4i7j0EsPswzA03-nzHqy_oyDQdK3VCKolKQ-meyndLv6cavTGs&usqp=CAU" style={{height:'250px'}}/>
                 <Card.Body style={{ color:'white', background: 'linear-gradient(to bottom left, #000066 0%, #9900cc 100%)'}}>
-                    <Card.Title>Car War (Warrior)</Card.Title>
-                    <Card.Text>Design a remote control car wireless & compete with others</Card.Text>
+                    <Card.Title>The Micrones(Check Your Structure)</Card.Title>
+                    <Card.Text>Elasticizing of material&#39;s characteristics at the microscopic level.</Card.Text>
                     <div class="registerdiv">
                     <Link to="register">
                     <button class="regbtn">

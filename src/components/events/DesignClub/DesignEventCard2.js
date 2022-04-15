@@ -1,16 +1,15 @@
 import React from 'react';
-import './CsEventCard.css'
+import './DesignEventCard.css'
 import Card from 'react-bootstrap/Card';
-import {Link} from 'react-router-dom'
+import {Link} from 'react-router-dom';
 
-function CsEventCard3() {
+function DesignEventCard2() {
     return (
-        <div className="cscard">
-            <Card className="cseventcard">
-                <Card.Img variant="top" src="https://assets.infosecurity-magazine.com/webpage/og/55e77508-c4a2-4a71-88aa-60bd5b5749da.jpg" style={{height:'250px'}}/>
+        <div className="designcard">
+            <Card className="designeventcard">
+                <Card.Img variant="top" src="https://resizing.flixster.com/faYhoUQdzNP1kissQ99v8lYDPy4=/300x300/v2/https://flxt.tmsimg.com/assets/p41895_v_h8_ab.jpg" style={{height:'250px'}}/>
                 <Card.Body style={{ color:'white', background: 'linear-gradient(to bottom left, #000066 0%, #9900cc 100%)'}}>
-                    <Card.Title>Magazinia</Card.Title>
-                    <Card.Text>Design an E-magazine</Card.Text>
+                    <Card.Title>Quill The Techvyom</Card.Title>
                     <div class="registerdiv">
                     <Link to="register">
                     <button class="regbtn">
@@ -20,8 +19,7 @@ function CsEventCard3() {
                 </Card.Body>
             </Card>
         </div>
-        
     )
 }
 
-export default CsEventCard3
+export default DesignEventCard2

@@ -16,6 +16,7 @@ function Card2() {
                 </Card.Body>
             </Card>
             </Link>
+            <Link to="pharma-events" style={{textDecoration:'none'}}>
             <Card className="branchcard">
                 <Card.Img variant="top" src="https://futureskillsprime.in/sites/default/files/inline-images/iStock-966248982.jpg" style={{height:'250px'}}/>
                 <Card.Body style={{color:'white', background: 'linear-gradient(to bottom left, #000066 0%, #9900cc 100%)'}}>
@@ -23,6 +24,7 @@ function Card2() {
                     <Card.Text>By Pharmquimica Club</Card.Text>
                 </Card.Body>
             </Card>
+            </Link>
         </div>
     )
 }

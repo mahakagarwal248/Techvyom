@@ -1,21 +1,21 @@
 import React from 'react';
-import './MeEvents.css'
+import './OpenEvents.css'
 import Navbar from '../../navbar/Navbar'
-import MeEventCard from './MeEventCard';
-import MeEventCard2 from './MeEventCard2'
+import OpenEventCard from './OpenEventCard';
+import OpenEventCard2 from './OpenEventCard2';
 
-function MeEvents() {
+function OpenEvents() {
     return (
-        <div className="meevents">
+        <div className="openevents">
             <Navbar/>
             <div style={{paddingTop:'6%',height:'80vh'}}>
-                <MeEventCard/>
+            <OpenEventCard/>
             </div>
             <div style={{paddingTop:'6%',height:'90vh'}}>
-                <MeEventCard2/>
+            <OpenEventCard2/>
             </div>
         </div>
     )
 }
 
-export default MeEvents
+export default OpenEvents
