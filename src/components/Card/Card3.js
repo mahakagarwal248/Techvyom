@@ -9,7 +9,7 @@ function Card3() {
             <Link to="mrc-events" style={{textDecoration:'none'}}>
                 {""}
             <Card className="branchcard">
-                <Card.Img variant="top" src="https://tdan.com/wp-content/uploads/2022/04/ART01x-feature-image-edited.jpg" style={{height:'250px'}}/>
+                <Card.Img variant="top" src="https://www.mmdbservices.com/wp-content/uploads/2022/01/A-girl-trying-to-understand-media-relations-management-services-300x300.jpg" style={{height:'250px'}}/>
                 <Card.Body style={{ color:'white', background: 'linear-gradient(to bottom left, #000066 0%, #9900cc 100%)'}}>
                     <Card.Title>MRC Club</Card.Title>
                 </Card.Body>

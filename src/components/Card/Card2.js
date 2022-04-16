@@ -9,7 +9,7 @@ function Card2() {
             <Link to="en-events" style={{textDecoration:'none'}}>
                 {""}
             <Card className="branchcard">
-                <Card.Img variant="top" src="https://tdan.com/wp-content/uploads/2022/04/ART01x-feature-image-edited.jpg" style={{height:'250px'}}/>
+                <Card.Img variant="top" src="https://i.scdn.co/image/ab67616d00001e021c75d11972c198f6850c3632" style={{height:'250px'}}/>
                 <Card.Body style={{ color:'white', background: 'linear-gradient(to bottom left, #000066 0%, #9900cc 100%)'}}>
                     <Card.Title>EN Competitions</Card.Title>
                     <Card.Text>By Synergy Club</Card.Text>
@@ -18,7 +18,7 @@ function Card2() {
             </Link>
             <Link to="pharma-events" style={{textDecoration:'none'}}>
             <Card className="branchcard">
-                <Card.Img variant="top" src="https://futureskillsprime.in/sites/default/files/inline-images/iStock-966248982.jpg" style={{height:'250px'}}/>
+                <Card.Img variant="top" src="https://www.thehighereducationreview.com/newnews/Ao89NwKD.jpg" style={{height:'250px'}}/>
                 <Card.Body style={{color:'white', background: 'linear-gradient(to bottom left, #000066 0%, #9900cc 100%)'}}>
                     <Card.Title>Pharmacy Competitions</Card.Title>
                     <Card.Text>By Pharmquimica Club</Card.Text>
