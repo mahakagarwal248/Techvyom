@@ -4,6 +4,7 @@
     width: 100%;
     background-attachment: fixed;
     padding-bottom: 50px;
+    background-size: cover;
 }
 .regform{
     width: 30%;

@@ -12,6 +12,7 @@ function CsEvents() {
         <div className="csevents">
             <Navbar/>
             <div className="sec1">
+            <h1 style={{textAlign:'center',fontWeight:'700'}}>CS-IT Events</h1>
             <CsEventCard/>
             </div>
             <div className="sec2">

@@ -5,6 +5,7 @@
   width: 100%;
   background-attachment: fixed;
   overflow-y: hidden;
+  background-size: cover;
 }
 
 .App-logo {

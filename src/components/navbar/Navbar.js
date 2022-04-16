@@ -7,7 +7,7 @@ function Navbar() {
         <div className="navbar">
             <Link to="/" style={{textDecoration:'none'}}>
             <div className="navdiv">
-                <img src="/images/techvyom_logo.jpeg" alt="Techvyom" style={{height:'120px',width:'130px',marginTop:'30px'}} />
+                <img src="/images/techvyom_logo.jpeg" alt="Techvyom" style={{height:'100px',width:'120px',marginTop:'30px'}} />
             </div>
             </Link>
         </div>

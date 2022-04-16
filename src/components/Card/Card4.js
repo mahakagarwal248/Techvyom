@@ -9,7 +9,7 @@ function Card4() {
             <Link to="lan-war-events" style={{textDecoration:'none'}}>
                 {""}
             <Card className="branchcard">
-                <Card.Img variant="top" src="https://tdan.com/wp-content/uploads/2022/04/ART01x-feature-image-edited.jpg" style={{height:'250px'}}/>
+                <Card.Img variant="top" src="https://bsmedia.business-standard.com/_media/bs/img/article/2019-07/28/full/1564336499-4935.jpg" style={{height:'250px'}}/>
                 <Card.Body style={{ color:'white', background: 'linear-gradient(to bottom left, #000066 0%, #9900cc 100%)'}}>
                     <Card.Title>LAN War</Card.Title>
                 </Card.Body>
@@ -17,7 +17,7 @@ function Card4() {
             </Link>
             <Link to="open-events" style={{textDecoration:'none'}}>
             <Card className="branchcard">
-                <Card.Img variant="top" src="https://futureskillsprime.in/sites/default/files/inline-images/iStock-966248982.jpg" style={{height:'250px'}}/>
+                <Card.Img variant="top" src="https://www.iso.org/files/live/sites/isoorg/files/news/News_archive/2020/09/ISOfocus_142/1/isofocus_142-1.jpg/thumbnails/300x300" style={{height:'250px'}}/>
                 <Card.Body style={{color:'white', background: 'linear-gradient(to bottom left, #000066 0%, #9900cc 100%)'}}>
                     <Card.Title>Open Events</Card.Title>
                 </Card.Body>

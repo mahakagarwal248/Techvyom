@@ -17,7 +17,7 @@ function Card3() {
             </Link>
             <Link to="literary-events" style={{textDecoration:'none'}}>
             <Card className="branchcard">
-                <Card.Img variant="top" src="https://futureskillsprime.in/sites/default/files/inline-images/iStock-966248982.jpg" style={{height:'250px'}}/>
+                <Card.Img variant="top" src="http://atxvideopro.com/wp-content/uploads/2016/12/script-writing-300x300.jpg" style={{height:'250px'}}/>
                 <Card.Body style={{color:'white', background: 'linear-gradient(to bottom left, #000066 0%, #9900cc 100%)'}}>
                     <Card.Title>Literary Club</Card.Title>
                 </Card.Body>
@@ -25,7 +25,7 @@ function Card3() {
             </Link>
             <Link to="design-events" style={{textDecoration:'none'}}>
             <Card className="branchcard">
-                <Card.Img variant="top" src="https://blog.flatworldsolutions.com/files/2019/11/top-mechanical-engineering-trends-to-watch-out-for-in-2020.jpg" style={{height:'250px'}}/>
+                <Card.Img variant="top" src="https://www.tooltech.net/wp-content/uploads/2019/05/S-5-01-300x300.jpg" style={{height:'250px'}}/>
                 <Card.Body style={{color:'white', background: 'linear-gradient(to bottom left, #000066 0%, #9900cc 100%)'}}>
                     <Card.Title>Design Club</Card.Title>
                 </Card.Body>
