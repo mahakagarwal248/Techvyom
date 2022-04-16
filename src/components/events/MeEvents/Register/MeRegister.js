@@ -37,12 +37,8 @@ function MeRegister() {
                     <ul>
                         <li><input type="checkbox" style={{height:'16px',width:'16px',marginRight:'8px'}} />Glider Plain Design</li>
                         <li><input type="checkbox" style={{height:'16px',width:'16px',marginRight:'8px'}}/>Chain Reaction</li>
-                        <li><input type="checkbox" style={{height:'16px',width:'16px',marginRight:'8px'}}/>Car War (Warrior)</li>   
-                    </ul>
-                    <ul style={{marginLeft:'auto',marginRight:'0px'}}>
-                        <li><input type="checkbox" style={{height:'16px',width:'16px',marginRight:'8px'}}/>Caditricks</li>
-                        <li><input type="checkbox" style={{height:'16px',width:'16px',marginRight:'8px'}}/>The Machinist</li>
-                        <li><input type="checkbox" style={{height:'16px',width:'16px',marginRight:'8px'}}/>Assemble & Dessemble</li>
+                        <li><input type="checkbox" style={{height:'16px',width:'16px',marginRight:'8px'}}/>The Micrones (Check your structure)</li>   
+                        <li><input type="checkbox" style={{height:'16px',width:'16px',marginRight:'8px'}}/>CAD tricks</li>
                     </ul>
                 </div>
                 <br />

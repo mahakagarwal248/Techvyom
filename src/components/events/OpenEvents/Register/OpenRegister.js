@@ -35,13 +35,14 @@ function OpenRegister() {
                 <label>Select Event:-</label>
                 <div className="eventselect">
                     <ul>
-                        <li><input type="checkbox" style={{height:'16px',width:'16px',marginRight:'8px'}} />Robo War (Ran Bhumi)</li>
-                        <li><input type="checkbox" style={{height:'16px',width:'16px',marginRight:'8px'}}/>Robo Race</li>
-                        <li><input type="checkbox" style={{height:'16px',width:'16px',marginRight:'8px'}}/>Line Follower Robot</li>   
+                        <li><input type="checkbox" style={{height:'16px',width:'16px',marginRight:'8px'}} />Aavishkarak (Working Model)</li>
+                        <li><input type="checkbox" style={{height:'16px',width:'16px',marginRight:'8px'}}/>Pharma Desk</li>
+                        <li><input type="checkbox" style={{height:'16px',width:'16px',marginRight:'8px'}}/>Technical Engineering</li>   
                     </ul>
                     <ul style={{marginLeft:'auto',marginRight:'0px'}}>
-                        <li><input type="checkbox" style={{height:'16px',width:'16px',marginRight:'8px'}}/>Robo Soccer</li>
-                        <li><input type="checkbox" style={{height:'16px',width:'16px',marginRight:'8px'}}/>Maze Solver</li>
+                        <li><input type="checkbox" style={{height:'16px',width:'16px',marginRight:'8px'}}/>Tech Quiz</li>
+                        <li><input type="checkbox" style={{height:'16px',width:'16px',marginRight:'8px'}}/>PLC Designing</li>
+                        <li><input type="checkbox" style={{height:'16px',width:'16px',marginRight:'8px'}}/>3D Printing</li>
                     </ul>
                 </div>
                 <br />

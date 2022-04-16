@@ -1,7 +1,8 @@
 .cscard{
-    width: 70%;
+    width: 75%;
     margin: auto;
     display: flex;
+    justify-content: center;
 }
 
 .registerdiv {

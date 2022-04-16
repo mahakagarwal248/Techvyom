@@ -1,5 +1,6 @@
 .mrccard{
-    width: 70%;
+    width: 75%;
+    justify-content: center;
     margin: auto;
     display: flex;
 }

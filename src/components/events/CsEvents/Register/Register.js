@@ -38,13 +38,11 @@ function Register() {
                         <li><input type="checkbox" style={{height:'16px',width:'16px',marginRight:'8px'}} />Web Battle</li>
                         <li><input type="checkbox" style={{height:'16px',width:'16px',marginRight:'8px'}}/>Beat-The-Bug</li>
                         <li><input type="checkbox" style={{height:'16px',width:'16px',marginRight:'8px'}}/>DB Knight</li>
-                        <li><input type="checkbox" style={{height:'16px',width:'16px',marginRight:'8px'}}/>C - Experts</li>    
                     </ul>
                     <ul style={{marginLeft:'auto',marginRight:'0px'}}>
+                        <li><input type="checkbox" style={{height:'16px',width:'16px',marginRight:'8px'}}/>C - Experts</li>    
                         <li><input type="checkbox" style={{height:'16px',width:'16px',marginRight:'8px'}}/>Tech-Play</li>
-                        <li><input type="checkbox" style={{height:'16px',width:'16px',marginRight:'8px'}}/>FB Hunt</li>
-                        <li><input type="checkbox" style={{height:'16px',width:'16px',marginRight:'8px'}}/>Magazinia</li>
-                    </ul>
+                        </ul>
                 </div>
                 <br />
                 <button>

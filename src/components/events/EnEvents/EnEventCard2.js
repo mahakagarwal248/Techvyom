@@ -22,7 +22,7 @@ function EnEventCard2() {
             <Card className="eneventcard">
                 <Card.Img variant="top" src="https://cdn.shopify.com/s/files/1/0403/7089/7047/files/Ewaste_2_300x300.jpg?v=1598993858" style={{height:'250px'}}/>
                 <Card.Body style={{ color:'white', background: 'linear-gradient(to bottom left, #000066 0%, #9900cc 100%)'}}>
-                    <Card.Title>Junk-Wars(E-Wastes Conversion)</Card.Title>
+                    <Card.Title>Junk-War (E-Wastes Conversion)</Card.Title>
                     <Card.Text>To build a model from E-Waste &amp; That Model Should Show Some Output.</Card.Text>
                     <div class="registerdiv">
                     <Link to="register">

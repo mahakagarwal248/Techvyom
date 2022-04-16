@@ -1,18 +1,22 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import './OpenEvents.css'
 import Navbar from '../../navbar/Navbar'
 import OpenEventCard from './OpenEventCard';
 import OpenEventCard2 from './OpenEventCard2';
 
 function OpenEvents() {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
     return (
         <div className="openevents">
             <Navbar/>
-            <div style={{paddingTop:'6%',height:'80vh'}}>
-            <OpenEventCard/>
-            </div>
-            <div style={{paddingTop:'6%',height:'90vh'}}>
+            <div className="sec1">
             <OpenEventCard2/>
+            </div>
+            <div className="sec2">
+            <h2>Tech Gallery</h2>
+            <OpenEventCard/>
             </div>
         </div>
     )

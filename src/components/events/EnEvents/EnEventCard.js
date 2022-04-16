@@ -35,7 +35,7 @@ function EnEventCard() {
             <Card className="eneventcard">
                 <Card.Img variant="top" src="https://i.all3dp.com/wp-content/uploads/2015/10/27130922/11950515_1700903740139223_1658642607_n-300x300.jpg" style={{height:'250px'}}/>
                 <Card.Body style={{ color:'white', background: 'linear-gradient(to bottom left, #000066 0%, #9900cc 100%)'}}>
-                    <Card.Title>Robo Ramble</Card.Title>
+                    <Card.Title>Robo Rumble</Card.Title>
                     <Card.Text>Design remote-control Robot wireless and compete with another last stand out will be winners.</Card.Text>
                     <div class="registerdiv">
                     <Link to="register">

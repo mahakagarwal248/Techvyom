@@ -68,7 +68,7 @@
 }
 .eventselect{
     display: flex;
-    width: 90%;
+    width: 100%;
 }
 
 .eventselect > ul > li{
@@ -80,7 +80,7 @@
 }
 @media (max-width:720px) {
     .regform{
-        width: 70%;
+        width: 95%;
     }
 }
 @media (min-width:721px) and (max-width:1020px) {

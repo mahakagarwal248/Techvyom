@@ -7,7 +7,7 @@ function OpenEventCard2() {
     return (
         <div className="opencard">
             <Card className="openeventcard">
-                <Card.Img variant="top" src="https://resizing.flixster.com/faYhoUQdzNP1kissQ99v8lYDPy4=/300x300/v2/https://flxt.tmsimg.com/assets/p41895_v_h8_ab.jpg" style={{height:'250px'}}/>
+                <Card.Img variant="top" src="https://www.infoplease.com/sites/infoplease.com/files/styles/large/public/2022-02/quiz-time.jpg?itok=mqTan5N-" style={{height:'250px'}}/>
                 <Card.Body style={{ color:'white',textAlign:'center', background: 'linear-gradient(to bottom left, #000066 0%, #9900cc 100%)'}}>
                     <Card.Title>Tech Quiz</Card.Title>
                     <div class="registerdiv">
@@ -19,7 +19,7 @@ function OpenEventCard2() {
                 </Card.Body>
             </Card>
             <Card className="openeventcard">
-                <Card.Img variant="top" src="https://i.all3dp.com/wp-content/uploads/2015/10/27130922/11950515_1700903740139223_1658642607_n-300x300.jpg" style={{height:'250px'}}/>
+                <Card.Img variant="top" src="https://img1.exportersindia.com/product_images/bc-small/2020/3/7120063/plc-programming-services-1583831563-5332110.jpg" style={{height:'250px'}}/>
                 <Card.Body style={{ color:'white',textAlign:'center', background: 'linear-gradient(to bottom left, #000066 0%, #9900cc 100%)'}}>
                     <Card.Title>PLC Designing</Card.Title>
                     <div class="registerdiv">
@@ -31,7 +31,7 @@ function OpenEventCard2() {
                 </Card.Body>
             </Card>
             <Card className="openeventcard">
-                <Card.Img variant="top" src="https://hackster.imgix.net/uploads/attachments/1049591/_yYzNRv1GW8.blob?auto=compress%2Cformat&w=400&h=300&fit=min" style={{height:'250px'}}/>
+                <Card.Img variant="top" src="https://blogs.3ds.com/northamerica/wp-content/uploads/sites/4/2020/08/3DPrint-Metal-Square-300x300.jpg" style={{height:'250px'}}/>
                 <Card.Body style={{ color:'white',textAlign:'center', background: 'linear-gradient(to bottom left, #000066 0%, #9900cc 100%)'}}>
                     <Card.Title>3D Printing</Card.Title>
                     <div class="registerdiv">

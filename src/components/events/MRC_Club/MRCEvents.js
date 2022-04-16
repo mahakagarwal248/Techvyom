@@ -1,13 +1,16 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import './MRCEvents.css';
 import Navbar from '../../navbar/Navbar'
 import MRCEventCard from './MRCEventCard';
 
 function MRCEvents() {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
     return (
         <div className="mrcevents">
             <Navbar/>
-            <div style={{paddingTop:'6%',height:'80vh'}}>
+            <div className="sec1">
                 <MRCEventCard/>
             </div>
         </div>

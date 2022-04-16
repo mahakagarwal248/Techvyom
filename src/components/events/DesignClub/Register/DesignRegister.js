@@ -35,13 +35,10 @@ function DesignRegister() {
                 <label>Select Event:-</label>
                 <div className="eventselect">
                     <ul>
-                        <li><input type="checkbox" style={{height:'16px',width:'16px',marginRight:'8px'}} />Robo War (Ran Bhumi)</li>
-                        <li><input type="checkbox" style={{height:'16px',width:'16px',marginRight:'8px'}}/>Robo Race</li>
-                        <li><input type="checkbox" style={{height:'16px',width:'16px',marginRight:'8px'}}/>Line Follower Robot</li>   
-                    </ul>
-                    <ul style={{marginLeft:'auto',marginRight:'0px'}}>
-                        <li><input type="checkbox" style={{height:'16px',width:'16px',marginRight:'8px'}}/>Robo Soccer</li>
-                        <li><input type="checkbox" style={{height:'16px',width:'16px',marginRight:'8px'}}/>Maze Solver</li>
+                        <li><input type="checkbox" style={{height:'16px',width:'16px',marginRight:'8px'}} />Technical Painting</li>
+                        <li><input type="checkbox" style={{height:'16px',width:'16px',marginRight:'8px'}}/>Multimedia Art</li>
+                        <li><input type="checkbox" style={{height:'16px',width:'16px',marginRight:'8px'}}/>Best Out of Waste</li>   
+                        <li><input type="checkbox" style={{height:'16px',width:'16px',marginRight:'8px'}}/>Quill The Techvyom</li>
                     </ul>
                 </div>
                 <br />

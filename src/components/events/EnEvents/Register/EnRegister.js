@@ -35,9 +35,9 @@ function EnRegister() {
                 <label>Select Event:-</label>
                 <div className="eventselect">
                     <ul>
-                        <li><input type="checkbox" style={{height:'16px',width:'16px',marginRight:'8px'}} />Drone Race(Art of Flight)</li>
                         <li><input type="checkbox" style={{height:'16px',width:'16px',marginRight:'8px'}}/>Aqua Race</li>
-                        <li><input type="checkbox" style={{height:'16px',width:'16px',marginRight:'8px'}}/>Innovation Model</li>   
+                        <li><input type="checkbox" style={{height:'16px',width:'16px',marginRight:'8px'}}/>Robo Ramble</li>   
+                        <li><input type="checkbox" style={{height:'16px',width:'16px',marginRight:'8px'}} />Drone Race(Art of Flight)</li>
                     </ul>
                     <ul style={{marginLeft:'auto',marginRight:'0px'}}>
                         <li><input type="checkbox" style={{height:'16px',width:'16px',marginRight:'8px'}}/>Drag & Place</li>

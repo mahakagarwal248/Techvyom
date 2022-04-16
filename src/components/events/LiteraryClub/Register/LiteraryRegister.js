@@ -35,13 +35,13 @@ function LiteraryRegister() {
                 <label>Select Event:-</label>
                 <div className="eventselect">
                     <ul>
-                        <li><input type="checkbox" style={{height:'16px',width:'16px',marginRight:'8px'}} />Robo War (Ran Bhumi)</li>
-                        <li><input type="checkbox" style={{height:'16px',width:'16px',marginRight:'8px'}}/>Robo Race</li>
-                        <li><input type="checkbox" style={{height:'16px',width:'16px',marginRight:'8px'}}/>Line Follower Robot</li>   
+                        <li><input type="checkbox" style={{height:'16px',width:'16px',marginRight:'8px'}} />Arz kiya hai</li>
+                        <li><input type="checkbox" style={{height:'16px',width:'16px',marginRight:'8px'}}/>Let's get Quizzical</li>
+                        <li><input type="checkbox" style={{height:'16px',width:'16px',marginRight:'8px'}}/>Spell-O-Ween</li>   
                     </ul>
                     <ul style={{marginLeft:'auto',marginRight:'0px'}}>
-                        <li><input type="checkbox" style={{height:'16px',width:'16px',marginRight:'8px'}}/>Robo Soccer</li>
-                        <li><input type="checkbox" style={{height:'16px',width:'16px',marginRight:'8px'}}/>Maze Solver</li>
+                        <li><input type="checkbox" style={{height:'16px',width:'16px',marginRight:'8px'}}/>Escape The Room</li>
+                        <li><input type="checkbox" style={{height:'16px',width:'16px',marginRight:'8px'}}/>Word Bee</li>
                     </ul>
                 </div>
                 <br />

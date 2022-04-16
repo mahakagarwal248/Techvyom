@@ -7,8 +7,8 @@ function LANWarEventCard() {
     return (
         <div className="lanwarcard">
             <Card className="lanwareventcard">
-                <Card.Img variant="top" src="https://resizing.flixster.com/faYhoUQdzNP1kissQ99v8lYDPy4=/300x300/v2/https://flxt.tmsimg.com/assets/p41895_v_h8_ab.jpg" style={{height:'250px'}}/>
-                <Card.Body style={{ color:'white', background: 'linear-gradient(to bottom left, #000066 0%, #9900cc 100%)'}}>
+                <Card.Img variant="top" src="https://i.pinimg.com/474x/8c/b4/72/8cb472618bf8b4d56eabb939279649c7.jpg" style={{height:'250px'}}/>
+                <Card.Body style={{ color:'white',textAlign:'center', background: 'linear-gradient(to bottom left, #000066 0%, #9900cc 100%)'}}>
                     <Card.Title>Battleground (BGMI)</Card.Title>
                     <div class="registerdiv">
                     <Link to="register">
@@ -19,8 +19,8 @@ function LANWarEventCard() {
                 </Card.Body>
             </Card>
             <Card className="lanwareventcard">
-                <Card.Img variant="top" src="https://i.all3dp.com/wp-content/uploads/2015/10/27130922/11950515_1700903740139223_1658642607_n-300x300.jpg" style={{height:'250px'}}/>
-                <Card.Body style={{ color:'white', background: 'linear-gradient(to bottom left, #000066 0%, #9900cc 100%)'}}>
+                <Card.Img variant="top" src="https://www.madmagazine.com/sites/default/files/field/image/MAD-Magazine-FIFA-Logo-Thumb_55661aa4baecf9.06299996.jpg" style={{height:'250px'}}/>
+                <Card.Body style={{ color:'white',textAlign:'center', background: 'linear-gradient(to bottom left, #000066 0%, #9900cc 100%)'}}>
                     <Card.Title>FIFA</Card.Title>
                     <div class="registerdiv">
                     <Link to="register">
@@ -31,8 +31,8 @@ function LANWarEventCard() {
                 </Card.Body>
             </Card>
             <Card className="lanwareventcard">
-                <Card.Img variant="top" src="https://hackster.imgix.net/uploads/attachments/1049591/_yYzNRv1GW8.blob?auto=compress%2Cformat&w=400&h=300&fit=min" style={{height:'250px'}}/>
-                <Card.Body style={{ color:'white', background: 'linear-gradient(to bottom left, #000066 0%, #9900cc 100%)'}}>
+                <Card.Img variant="top" src="https://games.lol/wp-content/uploads/2020/12/mini-militia-on-pc.jpg" style={{height:'250px'}}/>
+                <Card.Body style={{ color:'white',textAlign:'center', background: 'linear-gradient(to bottom left, #000066 0%, #9900cc 100%)'}}>
                     <Card.Title>Mini-Militia</Card.Title>
                     <div class="registerdiv">
                     <Link to="register">

@@ -1,13 +1,16 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import './LANWarEvents.css'
 import Navbar from '../../navbar/Navbar'
 import LANWarEventCard from './LANWarEventCard'
 
 function LANWarEvents() {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
     return (
         <div className="lanwarevents">
             <Navbar/>
-            <div style={{paddingTop:'6%',height:'100vh'}}>
+            <div className="sec1">
                 <LANWarEventCard/>
             </div>
         </div>

@@ -9,7 +9,7 @@ function EcEventCard() {
             <Card className="eceventcard">
                 <Card.Img variant="top" src="https://resizing.flixster.com/faYhoUQdzNP1kissQ99v8lYDPy4=/300x300/v2/https://flxt.tmsimg.com/assets/p41895_v_h8_ab.jpg" style={{height:'250px'}}/>
                 <Card.Body style={{ color:'white', background: 'linear-gradient(to bottom left, #000066 0%, #9900cc 100%)'}}>
-                    <Card.Title>Robo War (Ran Bhumi)</Card.Title>
+                    <Card.Title>Run Bhumi (Robo war)</Card.Title>
                     <Card.Text>Design a manual bot capable to fight with another bot with or without a weapon and damage it completely</Card.Text>
                     <div class="registerdiv">
                     <Link to="register">

@@ -1,17 +1,20 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import Navbar from '../../navbar/Navbar';
 import CsEventCard from './CsEventCard';
 import CsEventCard2 from './CsEventCard2';
 import './CsEvents.css';
 
 function CsEvents() {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
     return (
         <div className="csevents">
             <Navbar/>
-            <div style={{paddingTop:'6%',height:'100vh'}}>
+            <div className="sec1">
             <CsEventCard/>
             </div>
-            <div style={{height:'80vh'}}>
+            <div className="sec2">
             <CsEventCard2/>
             </div>
         </div>
