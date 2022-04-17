@@ -2,6 +2,7 @@ import React from 'react';
 import './LiteraryRegister.css';
 import { Avatar } from "antd";
 import Navbar from '../../../navbar/Navbar';
+import PidDisplay from '../../CsEvents/Register/PidDisplay';
 
 function LiteraryRegister() {
     return (
@@ -15,24 +16,6 @@ function LiteraryRegister() {
                 <input type="number" placeholder="Enter Roll Number" />
                 <input type="email" placeholder="Enter Email" />
                 <input type="telnet" placeholder="Enter Mobile Number" />
-                <label>Select Course</label>
-                <div className="courseselect">
-                    <ul>
-                        <li><input type="radio" name="course" />B.Tech</li>
-                        <li><input type="radio" name="course"/>B.Pharma</li>
-                        <li><input type="radio" name="course"/>MCA</li>
-                        <li><input type="radio" name="course"/>MBA</li>
-                    </ul>
-                </div>
-                <label>Select Batch</label>
-                <div className="yearselect">
-                    <ul>
-                        <li><input type="radio" name="year"/>2018</li>
-                        <li><input type="radio" name="year"/>2019</li>
-                        <li><input type="radio" name="year"/>2020</li>
-                        <li><input type="radio" name="year"/>2021</li>
-                    </ul>
-                </div>
                 <label>Select Event:-</label>
                 <div className="eventselect">
                     <ul>
@@ -46,8 +29,8 @@ function LiteraryRegister() {
                     </ul>
                 </div>
                 <br />
-                <button>
-                    Register
+                <button type="button" style={{marginBottom:'50px'}}>
+                   {<PidDisplay/>}
                 </button>
                 </form>
             </div>

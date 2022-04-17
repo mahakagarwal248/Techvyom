@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../../../navbar/Navbar';
 import './Register.css'
 import { Avatar } from "antd";
+import PidDisplay from './PidDisplay';
 
 function Register() {
     return (
@@ -11,28 +12,10 @@ function Register() {
                 <form className="form">
                 <Avatar className="avtr" src="https://joeschmoe.io/api/v1/random" />
                 <h3>Welcome</h3>
-                <input type="text" placeholder="Enter Name" />
-                <input type="number" placeholder="Enter Roll Number" />
-                <input type="email" placeholder="Enter Email" />
-                <input type="telnet" placeholder="Enter Mobile Number" />
-                <label>Select Course</label>
-                <div className="courseselect">
-                    <ul>
-                        <li><input type="radio" name="course" />B.Tech</li>
-                        <li><input type="radio" name="course"/>B.Pharma</li>
-                        <li><input type="radio" name="course"/>MCA</li>
-                        <li><input type="radio" name="course"/>MBA</li>
-                    </ul>
-                </div>
-                <label>Select Batch</label>
-                <div className="yearselect">
-                    <ul>
-                        <li><input type="radio" name="year"/>2018</li>
-                        <li><input type="radio" name="year"/>2019</li>
-                        <li><input type="radio" name="year"/>2020</li>
-                        <li><input type="radio" name="year"/>2021</li>
-                    </ul>
-                </div>
+                <input type="text" placeholder="Enter Name" id="name" required={true}/>
+                <input type="number" name="rollnumber" placeholder="Enter Roll Number" required={true}/>
+                <input type="email" placeholder="Enter Email" required={true}/>
+                <input type="telnet" placeholder="Enter Mobile Number" required={true}/>
                 <label>Select Event:-</label>
                 <div className="eventselect">
                     <ul>
@@ -46,8 +29,8 @@ function Register() {
                         </ul>
                 </div>
                 <br />
-                <button>
-                    Register
+                <button type="submit" style={{marginBottom:'50px'}}>
+                   {<PidDisplay/>}
                 </button>
                 </form>
             </div>

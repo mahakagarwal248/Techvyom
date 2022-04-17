@@ -54,25 +54,23 @@
     width: 30%;
     margin: auto;
 }
-.courseselect, .yearselect{
-    width: 90%;
-}
-.courseselect>ul, .yearselect>ul{
-    display: flex;
-}
-.courseselect>ul > li, .yearselect>ul>li{
-    list-style: none;
-    margin-bottom: 5px;
-    font-size: 18px;
-    font-weight: 500;
-    margin-right: 15px;
-}
 .eventselect > ul > li{
     list-style: none;
     margin-bottom: 5px;
     font-size: 18px;
     margin-left: -10px;
     font-weight: 500;
+}
+.homebtn{
+    border: none;
+    background-color: rgb(40, 40, 177);
+    color: white;
+    border-radius: 5px;
+    padding: 8px 12px;
+    margin-top: 15px;
+}
+.homebtn:hover{
+    cursor: pointer;
 }
 @media (max-width:720px) {
     .regform{
