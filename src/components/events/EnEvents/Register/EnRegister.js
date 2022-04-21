@@ -28,12 +28,14 @@ function EnRegister() {
     const [rollno, setRollno] = useState('')
     const [email, setEmail] = useState('')
     const [mobileno, setMobileno] = useState('')
+    const [otp, setOtp] = useState('')
     function onclick(e){
         return(
-            name === "" ? "": 
-            rollno === "" ? "" : 
-            email === "" ? "" :
-            mobileno === "" ? "" : handleOpen()
+            (name.length < 2 || name.length>25) ? "": 
+            (rollno.length<10) ? "" : 
+            (email.length<5) ? "" :
+            (mobileno.length<10) ? "" :
+            (otp.length<4) ? "" : handleOpen()
         )
     }
     function onsubmit(e){
@@ -47,10 +49,11 @@ function EnRegister() {
                 <form className="form" onSubmit={onsubmit}>
                 <Avatar className="avtr" src="https://joeschmoe.io/api/v1/random" />
                 <h3>Welcome</h3>
-                <input type="text" placeholder="Enter Name" value={name} onInput={e => setName(e.target.value)} id="name" required={true}/>
-                <input type="number" name="rollnumber" placeholder="Enter Roll Number" value={rollno} onInput={e => setRollno(e.target.value)} required={true}/>
-                <input type="email" placeholder="Enter Email" value={email} onInput={e => setEmail(e.target.value)} required={true}/>
-                <input type="telnet" placeholder="Enter Mobile Number" value={mobileno} onInput={e => setMobileno(e.target.value)} required={true}/>
+                <input type="text" minLength="2" maxLength="25" placeholder="Enter Name" value={name} onInput={e => setName(e.target.value)} id="name" required="required"/>
+                <input type="text" minLength="10" maxLength="13" name="rollnumber" placeholder="Enter Roll Number" value={rollno} onInput={e => setRollno(e.target.value)} required={true}/>
+                <input type="email" maxLength="35" placeholder="Enter Email" value={email} onInput={e => setEmail(e.target.value)} required={true}/>
+                <input type="telnet" minLength="10" maxLength="10" placeholder="Enter Mobile Number" value={mobileno} onInput={e => setMobileno(e.target.value)} required={true}/>
+                <input type="text" maxLength="4" value={otp} onInput={e => setOtp(e.target.value)} placeholder="Enter Otp"/>
                 <label>Select Event:-</label>
                 <div className="eventselect">
                     <ul>
