@@ -10,9 +10,9 @@ function LiteraryEventCard2() {
                 <Card.Img variant="top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQefXl-L7yxm7i1teHEUBrWpURs75XdKhMCrg&usqp=CAU" style={{height:'250px'}}/>
                 <Card.Body style={{ color:'white',textAlign:'center', background: 'linear-gradient(to bottom left, #000066 0%, #9900cc 100%)'}}>
                     <Card.Title>Escape The Room</Card.Title>
-                    <div class="registerdiv">
+                    <div className="registerdiv">
                     <Link to="register">
-                    <button class="regbtn">
+                    <button className="regbtn">
                     Register
                     </button></Link>
                     </div>
@@ -22,9 +22,9 @@ function LiteraryEventCard2() {
                 <Card.Img variant="top" src="https://im.rediff.com/300-300/getahead/2017/sep/26scrabblewords.jpg" style={{height:'250px'}}/>
                 <Card.Body style={{ color:'white',textAlign:'center', background: 'linear-gradient(to bottom left, #000066 0%, #9900cc 100%)'}}>
                     <Card.Title>Word Bee</Card.Title>
-                    <div class="registerdiv">
+                    <div className="registerdiv">
                     <Link to="register">
-                    <button class="regbtn">
+                    <button className="regbtn">
                     Register
                     </button></Link>
                     </div>

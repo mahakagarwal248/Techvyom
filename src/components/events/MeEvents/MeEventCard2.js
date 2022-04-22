@@ -11,9 +11,9 @@ function MeEventCard2() {
                 <Card.Body style={{ color:'white', background: 'linear-gradient(to bottom left, #000066 0%, #9900cc 100%)'}}>
                     <Card.Title>The Micrones(Check Your Structure)</Card.Title>
                     <Card.Text>Elasticizing of material&#39;s characteristics at the microscopic level.</Card.Text>
-                    <div class="registerdiv">
+                    <div className="registerdiv">
                     <Link to="register">
-                    <button class="regbtn">
+                    <button className="regbtn">
                     Register
                     </button></Link>
                     </div>
@@ -24,9 +24,9 @@ function MeEventCard2() {
                 <Card.Body style={{ color:'white', background: 'linear-gradient(to bottom left, #000066 0%, #9900cc 100%)'}}>
                     <Card.Title>CAD Tricks</Card.Title>
                     <Card.Text>Event of making 3D model in solid works of given design</Card.Text>
-                    <div class="registerdiv">
+                    <div className="registerdiv">
                     <Link to="register">
-                    <button class="regbtn">
+                    <button className="regbtn">
                     Register
                     </button></Link>
                     </div>

@@ -11,9 +11,9 @@ function MeEventCard() {
                 <Card.Body style={{ color:'white', background: 'linear-gradient(to bottom left, #000066 0%, #9900cc 100%)'}}>
                     <Card.Title>Glider Plane Design</Card.Title>
                     <Card.Text>Design & build a Glider Plain made of BalsaWood, which will be launched by using a hand</Card.Text>
-                    <div class="registerdiv">
+                    <div className="registerdiv">
                     <Link to="register">
-                    <button class="regbtn">
+                    <button className="regbtn">
                     Register
                     </button></Link>
                     </div>
@@ -24,9 +24,9 @@ function MeEventCard() {
                 <Card.Body style={{ color:'white', background: 'linear-gradient(to bottom left, #000066 0%, #9900cc 100%)'}}>
                     <Card.Title>Chain Reaction</Card.Title>
                     <Card.Text>Chain Reaction is a sequence of reactions where a reactive product causes additional reactions to take place.</Card.Text>
-                    <div class="registerdiv">
+                    <div className="registerdiv">
                     <Link to="register">
-                    <button class="regbtn">
+                    <button className="regbtn">
                     Register
                     </button></Link>
                     </div>

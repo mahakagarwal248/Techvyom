@@ -11,9 +11,9 @@ function EnEventCard2() {
                 <Card.Body style={{ color:'white', background: 'linear-gradient(to bottom left, #000066 0%, #9900cc 100%)'}}>
                     <Card.Title>Drag & Place</Card.Title>
                     <Card.Text>Drag the obstacle & place it in their required places. The arena will be revealed during the competition</Card.Text>
-                    <div class="registerdiv">
+                    <div className="registerdiv">
                     <Link to="register">
-                    <button class="regbtn">
+                    <button className="regbtn">
                     Register
                     </button></Link>
                     </div>
@@ -24,9 +24,9 @@ function EnEventCard2() {
                 <Card.Body style={{ color:'white', background: 'linear-gradient(to bottom left, #000066 0%, #9900cc 100%)'}}>
                     <Card.Title>Junk-War (E-Wastes Conversion)</Card.Title>
                     <Card.Text>To build a model from E-Waste &amp; That Model Should Show Some Output.</Card.Text>
-                    <div class="registerdiv">
+                    <div className="registerdiv">
                     <Link to="register">
-                    <button class="regbtn">
+                    <button className="regbtn">
                     Register
                     </button></Link>
                     </div>

@@ -10,9 +10,9 @@ function DesignEventCard() {
                 <Card.Img variant="top" src="https://render.fineartamerica.com/images/rendered/square-product/small/images/artworkimages/mediumlarge/1/tech-symbol-leon-zernitsky.jpg" style={{height:'250px'}}/>
                 <Card.Body style={{ color:'white',textAlign:'center', background: 'linear-gradient(to bottom left, #000066 0%, #9900cc 100%)'}}>
                     <Card.Title>Technical Painting</Card.Title>
-                    <div class="registerdiv">
+                    <div className="registerdiv">
                     <Link to="register">
-                    <button class="regbtn">
+                    <button className="regbtn">
                     Register
                     </button></Link>
                     </div>
@@ -22,9 +22,9 @@ function DesignEventCard() {
                 <Card.Img variant="top" src="https://cdn.shopify.com/s/files/1/0553/3594/4379/articles/At_49_300x.jpg?v=1617897101" style={{height:'250px'}}/>
                 <Card.Body style={{ color:'white',textAlign:'center', background: 'linear-gradient(to bottom left, #000066 0%, #9900cc 100%)'}}>
                     <Card.Title>Multimedia Art</Card.Title>
-                    <div class="registerdiv">
+                    <div className="registerdiv">
                     <Link to="register">
-                    <button class="regbtn">
+                    <button className="regbtn">
                     Register
                     </button></Link>
                     </div>

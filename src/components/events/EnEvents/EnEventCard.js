@@ -11,9 +11,9 @@ function EnEventCard() {
                 <Card.Body style={{ color:'white', background: 'linear-gradient(to bottom left, #000066 0%, #9900cc 100%)'}}>
                     <Card.Title>Drone Race (Art of Flight)</Card.Title>
                     <Card.Text>Construct a drone which can reach the destination while flying through hurdles and sharp turns etc</Card.Text>
-                    <div class="registerdiv">
+                    <div className="registerdiv">
                     <Link to="register">
-                    <button class="regbtn">
+                    <button className="regbtn">
                     Register
                     </button></Link>
                     </div>
@@ -24,9 +24,9 @@ function EnEventCard() {
                 <Card.Body style={{ color:'white', background: 'linear-gradient(to bottom left, #000066 0%, #9900cc 100%)'}}>
                     <Card.Title>Aqua Race</Card.Title>
                     <Card.Text>In this the Robots have to move the blocks of wood from one position to another in water</Card.Text>
-                    <div class="registerdiv">
+                    <div className="registerdiv">
                     <Link to="register">
-                    <button class="regbtn">
+                    <button className="regbtn">
                     Register
                     </button></Link>
                     </div>
@@ -37,9 +37,9 @@ function EnEventCard() {
                 <Card.Body style={{ color:'white', background: 'linear-gradient(to bottom left, #000066 0%, #9900cc 100%)'}}>
                     <Card.Title>Robo Rumble</Card.Title>
                     <Card.Text>Design remote-control Robot wireless and compete with another last stand out will be winners.</Card.Text>
-                    <div class="registerdiv">
+                    <div className="registerdiv">
                     <Link to="register">
-                    <button class="regbtn">
+                    <button className="regbtn">
                     Register
                     </button></Link>
                     </div>

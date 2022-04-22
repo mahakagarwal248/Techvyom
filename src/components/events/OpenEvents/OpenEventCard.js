@@ -10,9 +10,9 @@ function OpenEventCard() {
                 <Card.Img variant="top" src="https://www.vwv.co.uk/media/zoo/images/pharmaceuticals-and-life-sciences-479x243_611f572747a9f20b9fd7031eb74b59ab.jpg?1523290330" style={{height:'250px'}}/>
                 <Card.Body style={{ color:'white',textAlign:'center', background: 'linear-gradient(to bottom left, #000066 0%, #9900cc 100%)'}}>
                     <Card.Title>Medical</Card.Title>
-                    <div class="registerdiv">
+                    <div className="registerdiv">
                     <Link to="register">
-                    <button class="regbtn">
+                    <button className="regbtn">
                     Register
                     </button></Link>
                     </div>
@@ -22,9 +22,9 @@ function OpenEventCard() {
                 <Card.Img variant="top" src="https://www.tooltech.net/wp-content/uploads/2019/05/S-5-01-300x300.jpg" style={{height:'250px'}}/>
                 <Card.Body style={{ color:'white',textAlign:'center', background: 'linear-gradient(to bottom left, #000066 0%, #9900cc 100%)'}}>
                     <Card.Title>Technical engineering</Card.Title>
-                    <div class="registerdiv">
+                    <div className="registerdiv">
                     <Link to="register">
-                    <button class="regbtn">
+                    <button className="regbtn">
                     Register
                     </button></Link>
                     </div>

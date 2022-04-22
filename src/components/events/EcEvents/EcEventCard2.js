@@ -11,9 +11,9 @@ function EcEventCard2() {
                 <Card.Body style={{ color:'white', background: 'linear-gradient(to bottom left, #000066 0%, #9900cc 100%)'}}>
                     <Card.Title>Robot Soccer</Card.Title>
                     <Card.Text>Build a robot that can play football by ball passing or dragging in goal post</Card.Text>
-                    <div class="registerdiv">
+                    <div className="registerdiv">
                     <Link to="register">
-                    <button class="regbtn">
+                    <button className="regbtn">
                     Register
                     </button></Link>
                     </div>
@@ -24,9 +24,9 @@ function EcEventCard2() {
                 <Card.Body style={{ color:'white', background: 'linear-gradient(to bottom left, #000066 0%, #9900cc 100%)'}}>
                     <Card.Title>Maze Solver</Card.Title>
                     <Card.Text>Solve the maze in shortest time</Card.Text>
-                    <div class="registerdiv">
+                    <div className="registerdiv">
                     <Link to="register">
-                    <button class="regbtn">
+                    <button className="regbtn">
                     Register
                     </button></Link>
                     </div>

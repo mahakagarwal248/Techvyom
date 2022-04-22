@@ -11,9 +11,9 @@ function EcEventCard() {
                 <Card.Body style={{ color:'white', background: 'linear-gradient(to bottom left, #000066 0%, #9900cc 100%)'}}>
                     <Card.Title>Run Bhumi (Robo war)</Card.Title>
                     <Card.Text>Design a manual bot capable to fight with another bot with or without a weapon and damage it completely</Card.Text>
-                    <div class="registerdiv">
+                    <div className="registerdiv">
                     <Link to="register">
-                    <button class="regbtn">
+                    <button className="regbtn">
                     Register
                     </button></Link>
                     </div>
@@ -24,9 +24,9 @@ function EcEventCard() {
                 <Card.Body style={{ color:'white', background: 'linear-gradient(to bottom left, #000066 0%, #9900cc 100%)'}}>
                     <Card.Title>Robo Race</Card.Title>
                     <Card.Text>Construct a bot which can reach the destination while traversing through hurdles, sharp turns, wavy and muddy paths and wedges etc</Card.Text>
-                    <div class="registerdiv">
+                    <div className="registerdiv">
                     <Link to="register">
-                    <button class="regbtn">
+                    <button className="regbtn">
                     Register
                     </button></Link>
                     </div>
@@ -37,9 +37,9 @@ function EcEventCard() {
                 <Card.Body style={{ color:'white', background: 'linear-gradient(to bottom left, #000066 0%, #9900cc 100%)'}}>
                     <Card.Title>Line Follower Robot</Card.Title>
                     <Card.Text>Make your bot compatible for every type of path that you can imagine</Card.Text>
-                    <div class="registerdiv">
+                    <div className="registerdiv">
                     <Link to="register">
-                    <button class="regbtn">
+                    <button className="regbtn">
                     Register
                     </button></Link>
                     </div>
